@@ -1,52 +1,23 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<!-- This template removes the micro tutorial for a quicker post and removes images for a full template check out the 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
 
-# New post title here
+# Created static version of wordpress site in AWS S3 \ setup Route 53 DNS for the site
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+This project ended up being a multi step project that effectively creates a static version of a WordPress site and then is hosted in an S3 bucket.  This is accomplished by using The wordpress plug-in simply static, then creating \ adding the static files to a AWS S3 bucket, then setting up Route 53 DNS to point the S3 endpoint.  Additionally a second S3 bucket is created to configure HTTP redirection of requests to www.yourdomain.com to the root domain yourdomain.com (where the site is). 
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- A use case for this procedure would be if you need a fast loading site or want to try to reduce the attack surface of your wp site.  There are pro's and con's to this setup and I would not recommend this as a catch all for wordpress deployments.
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- In working through getting this setup, I found that simply static creates a javascript file and puts it into a wp-includes folder.  If you try to upload the js file inside the folder to the S3 bucket all the formatting etc will not load.  You need to take this file out of the folder and upload it directly. Once I did that the page loaded correctly.  Another configuration that I found interesting or at least was new to me was creating the second bucket for redirects.  For a standard server wordpress install I have running in EC2, I only added a DNS record for the www. subdomain.  It appears using the static site a second bucket must be created and configured for redirction to the root domain for this to work.
 
-## Try yourself
+- Overall this was an fun project and I gleaned a lot from it.  One thing that I want to investigate more is that the links on the page to othe pages on the site point to localhost.  This makes sense to me as the site I made static was local.  What I need to do is determine how I can point to these pages.  To be continued on that, but the main goal of hosting a wp static site in S3 bucket with route 53 was a success.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Tweet](https://twitter.com/realmawsb/status/1319574238316068864)
