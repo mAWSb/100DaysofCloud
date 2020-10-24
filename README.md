@@ -10,20 +10,21 @@
 5. Update your main README to link back to your Day Journey article
 4. If you need ideas go to [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas)
 
-## How to use this template:
-Fill in your details where you see this icon ✍️
-We have provided a sample Day Journey entry staring at 0. You can delete this example.
 
-## [✍️ Your Name]'s Cloud Journey
+## Mike Bezak's Cloud Journey
 
 [✍️ Introduce yourself]
+- Currently I am a Systems Administator and have been in IT for 16 years.  I have mainly been focused on Server side administration \ monitoring and CommVault backups.  
 
 [✍️ Tell us why you started this challenge]
+- I started this challege to keep growing my Cloud skills and ultimatley move into a cloud role.  I would like to move into a role that focuses on process automation and Infrastructure As Code (IAC).  
 
 [✍️ Tell us where you want to be at the end of the challenge]
+- My goal at the end of this challenge is to become a highly desirable devops candidate.
 
-- [✍️ Link to your Twitter](https://twitter.com/username)
-- [✍️ Link to your LinkedIn](https://www.linkedin.com/in/username)
+
+- [✍️ Link to your Twitter](https://twitter.com/realmawsb)
+- [✍️ Link to your LinkedIn](https://www.linkedin.com/in/mbezak/)
 
 ## Stepping out the door
 
@@ -31,7 +32,7 @@ We have provided a sample Day Journey entry staring at 0. You can delete this ex
 - [ ] ☁️ 2 > [Day 2 - Create S3 Static site](Journey/002/Readme.md)
 - [ ] ☁️ 3 > [Day 3 - Create WordPress site in Docker](Journey/003/Readme.md)
 - [ ] ☁️ 4 > [Day 4 - Created static version of wordpress site in AWS S3 \ setup Route 53 DNS for the site](Journey/004/Readme.md)
-- [ ] ☁️ 5 > [](Journey/005/Readme.md)
+- [ ] ☁️ 5 > [Day 5 - Codecademy - Learn Python 3 \ Syntax lesson](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [](Journey/006/Readme.md)
 - [ ] ☁️ 7 > [](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [](Journey/008/Readme.md)
