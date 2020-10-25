@@ -33,7 +33,7 @@
 - [ ] ☁️ 3 > [Day 3 - Create WordPress site in Docker](Journey/003/Readme.md)
 - [ ] ☁️ 4 > [Day 4 - Created static version of wordpress site in AWS S3 \ setup Route 53 DNS for the site](Journey/004/Readme.md)
 - [ ] ☁️ 5 > [Day 5 - Codecademy - Learn Python 3 \ Syntax lesson](Journey/005/Readme.md)
-- [ ] ☁️ 6 > [](Journey/006/Readme.md)
+- [ ] ☁️ 6 > [Day 6 - Enabling MFA \ Changing device on AWS accounts](Journey/006/Readme.md)
 - [ ] ☁️ 7 > [](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [](Journey/009/Readme.md)
