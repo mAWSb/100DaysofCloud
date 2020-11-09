@@ -35,7 +35,7 @@
 - [ ] ☁️ 5 > [Day 5 - Codecademy - Learn Python 3 \ Syntax lesson](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [Day 6 - Enabling MFA \ Changing device on AWS accounts](Journey/006/Readme.md)
 - [ ] ☁️ 7 > [Day 7 - Read first half of AWS Security Best Practices Whitepaper | Installed posh-git](Journey/007/Readme.md)
-- [ ] ☁️ 8 > [](Journey/008/Readme.md)
+- [ ] ☁️ 8 > [Day 8 - Created AWS VPC in Cloudformation](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [](Journey/009/Readme.md)
 - [ ] ☁️ 10 > [](Journey/010/Readme.md)
 
